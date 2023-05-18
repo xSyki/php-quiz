@@ -1,5 +1,5 @@
 <header class="header">
-    <a href="index.php">
+    <a class="header__logo" href="index.php">
         Syki Quizy
     </a>
 </header>
