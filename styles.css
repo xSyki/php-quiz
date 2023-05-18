@@ -1,0 +1,63 @@
+body {
+  color: white;
+  background-color: #212121;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: black;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.footer {
+  justify-content: flex-end;
+  background-color: black;
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.main {
+  flex-grow: 1;
+  padding: 50px;
+}
+
+.quizzes {
+  display: flex;
+  flex-direction: column;
+}
+
+.quiz {
+  display: flex;
+  padding: 20px;
+  background-color: black;
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 2rem;
+}
+
+.quiz__submit {
+  background-color: black;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: max-content;
+  border: none;
+  color: white;
+}
+
+.quiz__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.quiz__question {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
